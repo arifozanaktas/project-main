@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" sizes="16x16 32x32" href="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/favicons/favicon.ico">
+  <link rel="apple-touch-icon-precomposed"
+    href="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/favicons/favicon-152.png">
+  <link rel="canonical" href="https://biletinial.com/tr-tr">
+  <link href="https://b6s54eznn8xq.merlincdn.net/dist/assets/css/style.min.css?v=20240709" rel="stylesheet">
+  <link rel="alternate" hreflang="tr-tr" href="https://biletinial.com/tr-tr">
+  <link rel="alternate" hreflang="en-us" href="https://biletinial.com/en-tr">
+  <link rel="alternate" hreflang="hr-hr" href="https://biletinial.com/hr-tr">
+  <link rel="alternate" hreflang="sq-al" href="https://biletinial.com/sq-tr">
+  <link rel="alternate" hreflang="fr-fr" href="https://biletinial.com/fr-tr">
+  <link rel="alternate" hreflang="da-dk" href="https://biletinial.com/da-tr">
+  <link rel="alternate" hreflang="de-de" href="https://biletinial.com/de-tr">
+  <link href="https://b6s54eznn8xq.merlincdn.net/dist/assets/css/cookieconsent.css" rel="stylesheet">
+  
+  <script src="https://b6s54eznn8xq.merlincdn.net/dist/assets/js/translations.js?v=24072319v1"></script>
+  <script src="https://b6s54eznn8xq.merlincdn.net/dist/assets/js/scripts.min.js?v=20240709"></script>
+  <script src="https://b6s54eznn8xq.merlincdn.net/adsmodal/update.js?v=24072319v1"></script>
+  <script defer src="https://b6s54eznn8xq.merlincdn.net/dist/assets/js/cookieconsent.js"></script>
+  <script defer src="https://b6s54eznn8xq.merlincdn.net/dist/assets/js/cookieconsent-init.js"></script>
+  <script async src="https://www.googleoptimize.com/optimize.js?id=OPT-NT4PX4M"></script>
+  <script src="https://b6s54eznn8xq.merlincdn.net/Content/site/js/jquery.inputmask.js"></script>
+  <!-- Global Değişkenler -->
+  <script>
+    var action = 'Index';
+    var controller = 'Home';
+    var domainId = 3;
+    var langId = 1;
+    var langCode = 'tr';
+    var countryCode = 'tr';
+    var countryId = '3';
+    var region = 'tr-tr';
+    var cachedDate = '23.07.2024 19:56:34';
+    var cdnUserCityId = 0;
+    var currentCulture = 'tr';
+  </script>
+  
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MC7RNPX');
+  </script>
+  
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Biletinial",
+      "url": "https://biletinial.com",
+      "sameAs": [
+          "https://twitter.com/biletinial",
+          "https://www.facebook.com/biletinial",
+          "https://www.instagram.com/biletinial",
+          "https://tr.linkedin.com/company/biletinial"
+      ],
+      "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Üçevler Mah. Ünseven Sokak No:4",
+          "postalCode": "16270",
+          "addressCountry": "TR"
+      }
+  }
+  </script>
+  
+  <!-- Metin Değişkenleri -->
+  <script>
+    var AvailableSeats = "Boş Koltuk Mevcut";
+    var PleaseSelectBlock = "Lütfen Blok Seçiniz";
+    var DeleteSeat = "Koltuğu Sil";
+    var The_seat_you_have_chosen_has_limited_visibility = "Seçmiş olduğunuz koltukta görüş kısıtlıdır";
+    var An_unexpected_error_occurred_please_try_again_later = "Beklenmeyen bir hata oluştu lütfen daha sonra tekrar deneyiniz.";
+    var SehrineOzelEtkinlikler = "Şehrine Özel Etkinlikler";
+    var Takvim = "Takvim";
+    var Liste = "Liste";
+    var This_seat_is_not_available_for_election = "Bu koltuk seçilmeye müsait değildir.";
+    var Ok = "Tamam";
+    var SelectVenue = "Mekan Seçiniz";
+    var SessionTimeoutWarning = "Koltuk seçimi zamanı tükendi, lütfen tekrar seçiniz, yönlendiriliyorsunuz.";
+    var InYourCity = "Şehrinizde";
+    var SelectedCity = "Seçili şehir";
+    var maxSeatWarning = "En fazla {0} adet koltuk seçebilirsiniz";
+    var ThereAreNoVacantSeatsInThisBlockPleaseChooseOneOfTheOtherOpenBlocks = "Bu blokta boş koltuk bulunmamaktadır, lütfen diğer açık bloklardan birini seçiniz";
+    var ThereAreNoVacantSeatsInThisBlock = "Bu blokta boş koltuk bulunmamaktadır";
+    var UnexpectedErrorPleaceTry = "Beklenmeyen bir hata oluştu lütfen daha sonra tekrar deneyiniz.";
+    var NoSeatYouCanReserve = "Bu alanda koltuk bulunmamaktadır, tekerlekli sandalye alanını şubeden rezerve edebilirsiniz.";
+    var LoveSeatWarning1 = "İkili koltuk için en az 2 bilet almanız gerekmektedir.";
+    var LoveSeatWarning2 = "İkili koltuklar birlikte seçilmelidir.";
+  </script>
+  
+  <!-- Input Mask -->
+  <script>
+    $(".gsm").inputmask("999 999 99 99");
+  </script>
+  
+  <!-- Whatsapp Destek Modal -->
+  <script>
+    const openSupport = (status) => {
+      if (status) {
+        $('.yn_support').addClass('yn_support-open');
+        $('.yn_overlay').fadeIn();
+        $('body').css('overflow', 'hidden');
+      } else {
+        $('.yn_support').removeClass('yn_support-open');
+        $('.yn_overlay').fadeOut();
+        $('body').css('overflow', 'visible');
+      }
+    }
+  
+    const ynp_today = new Date();
+    const ynp_day = ynp_today.getDay();
+    const ynp_hour = ynp_today.getHours();
+    let ynp_supportStatus = false;
+  
+    if ((ynp_day < 6 && ynp_hour > 9 && ynp_hour < 22) || (ynp_day > 5 && ynp_hour > 10 && ynp_hour < 22)) {
+      $('.yn_support-whatsapp > div, .yn_support-mh > div').append(`<mark class="yn_support-live">LIVE</mark>`);
+      $('.yn_support-mh').attr('href', 'tel:08503339911');
+      $('.yn_support-mh span').html('0850 333 9911');
+      ynp_supportStatus = true;
+    } else {
+      $('.yn_support-whatsapp > div, .yn_support-mh > div').append(`<mark>OFFLINE</mark>`);
+      ynp_supportStatus = false;
+    }
+  
+    const yn_back = () => {
+      $('.yn_support > div > div').hide();
+      $('.yn_support > div > a').show();
+    }
+  
+    if (!ynp_supportStatus) {
+      $('.yn_support-mh').on('click', function() {
+        $('.yn_support > div > a').hide();
+        $(this).siblings('div').show();
+      });
+    }
+  
+    $('.yn_support-so').on('click', function() {
+      $('.yn_support > div > a').hide();
+      $(this).siblings('div').show();
+    });
+  </script>
+  
+  <!-- Müşteri Mesaj Formu -->
+  <script>
+    $('#frmCustomerMessage').on('submit', function(e) {
+      e.preventDefault();
+      $('#divCustomerMessageResult div').show();
+      postCustomerMessage($(this).find('input[type="tel"]').val(), $(this).find('textarea').val(), 1, 'divCustomerMessageResult');
+    });
+  
+    $('#frmCustomerComplaint').on('submit', function(e) {
+      e.preventDefault();
+      $('#divCustomerComplainResult div').show();
+      postCustomerMessage($(this).find('input[type="tel"]').val(), $(this).find('textarea').val(), 2, 'divCustomerComplainResult');
+    });
+  
+    function postCustomerMessage(gsmNumber, txtMessage, messageType, divElementId) {
+      var obj = { messageType: parseInt(messageType), gsmNumber: gsmNumber, txtMessage: txtMessage };
+  
+      $.ajax({
+        type: 'POST',
+        url: '/home/MessageFromCustomer',
+        data: obj,
+        success: function(result) {
+          $(`#${divElementId} div`).hide();
+          if (result == '') {
+            var successMessage = 'İşlem Başarılı';
+            $('#' + divElementId).append(`<p style="color:green;">${successMessage}</p>`);
+            $('#txtCustomerGsmMes').val('');
+            $('#txtCustomerGsmComplaint').val('');
+            $('#txtCustomerComplaint').val('');
+            $('#txtCustomerMes').val('');
+          } else {
+            $('#' + divElementId).append(`<p style="color:red;">${result}</p>`);
+          }
+          setTimeout(function() { $(`#${divElementId} p`).remove(); }, 4000);
+        },
+        error: function(err) {
+          $(`#${divElementId} div`).hide();
+          console.log(err);
+        }
+      });
+    }
+  </script>
+  
+  <title>
+    Biletinial - Türkiye’nin Etkinlik Biletleme Platformu</title>
+</head>
+
+<body>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC7RNPX"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+  <div id="root"></div>
+
+</body>
+
+</html>
